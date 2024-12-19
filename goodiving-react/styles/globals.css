@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #f3f3f3;
+  overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+  background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #023e8a;
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+button {
+  border: none;
+  background-color: inherit;
+}
+
+ul li {
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --primary: #023e8a;
+  --secondary: #dcf0fc;
+  --danger: #ff277e;
+  --01: #141718;
+  --02: #aaaaaa;
+  --03: #dddddd;
+  --04: #f3f3f3;
+  --05: #ffffff;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+h6 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.bolder {
+  font-weight: 800;
+}
+.swiper-pagination-bullet-active {
+  background-color: var(--primary) !important;
+}
+.swiper-pagination {
+  position: relative !important;
+  bottom: -3px !important;
+  text-align: center !important;
+  z-index: 10 !important;
+}
+
+/* 手機 */
+@media screen and (max-width: 576px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  h5 {
+    font-size: 18px;
+  }
+
+  h6 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}

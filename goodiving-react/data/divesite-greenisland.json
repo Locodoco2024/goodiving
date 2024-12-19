@@ -1,0 +1,146 @@
+{
+  "greenisland": {
+    "mapInfo": {
+      "name": "綠島潛點地圖",
+      "imageUrl": "/greenisland.png"
+    },
+    "diveSpots": [
+      {
+        "id": 1,
+        "x": 900,
+        "y": 79,
+        "name": "三塊石",
+        "type": "boat",
+        "haslog": "true"
+      },
+      {
+        "id": 2,
+        "x": 878,
+        "y": 488,
+        "name": "仙人疊石",
+        "type": "boat",
+        "haslog": ""
+      },
+      {
+        "id": 3,
+        "x": 600,
+        "y": 748,
+        "name": "教堂",
+        "type": "shore",
+        "haslog": "true"
+      },
+      {
+        "id": 4,
+        "x": 585,
+        "y": 800,
+        "name": "獨立礁",
+        "type": "shore",
+        "haslog": "true"
+      },
+      {
+        "id": 5,
+        "x": 532,
+        "y": 812,
+        "name": "大白沙",
+        "type": "shore",
+        "haslog": ""
+      },
+      {
+        "id": 6,
+        "x": 550,
+        "y": 765,
+        "name": "鋼鐵礁",
+        "type": "boat",
+        "haslog": "true"
+      },
+      {
+        "id": 7,
+        "x": 561,
+        "y": 722,
+        "name": "馬蹄橋",
+        "type": "shore",
+        "haslog": ""
+      },
+      {
+        "id": 8,
+        "x": 350,
+        "y": 625,
+        "name": "電桿礁",
+        "type": "boat",
+        "haslog": ""
+      },
+      {
+        "id": 9,
+        "x": 345,
+        "y": 584,
+        "name": "六米礁",
+        "type": "boat",
+        "haslog": ""
+      },
+      {
+        "id": 10,
+        "x": 386,
+        "y": 575,
+        "name": "海底郵筒",
+        "type": "shore",
+        "haslog": "true"
+      },
+      {
+        "id": 11,
+        "x": 368,
+        "y": 517,
+        "name": "大香菇",
+        "type": "boat",
+        "haslog": "true"
+      },
+      {
+        "id": 12,
+        "x": 422,
+        "y": 248,
+        "name": "中寮港",
+        "type": "shore",
+        "haslog": "true"
+      },
+      {
+        "id": 13,
+        "x": 521,
+        "y": 220,
+        "name": "柴口",
+        "type": "shore",
+        "haslog": "true"
+      },
+      {
+        "id": 14,
+        "x": 634,
+        "y": 188,
+        "name": "公館鼻",
+        "type": "shore",
+        "haslog": ""
+      },
+      {
+        "id": 15,
+        "x": 695,
+        "y": 117,
+        "name": "大峽谷",
+        "type": "boat",
+        "haslog": "true"
+      },
+      {
+        "id": 16,
+        "x": 708,
+        "y": 216,
+        "name": "將軍岩",
+        "type": "boat",
+        "haslog": "true"
+      },
+      {
+        "id": 17,
+        "x": 786,
+        "y": 137,
+        "name": "一線天",
+        "type": "boat",
+        "haslog": "true"
+      }
+    ]
+  }
+}

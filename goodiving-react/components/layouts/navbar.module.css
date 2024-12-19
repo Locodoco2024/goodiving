@@ -1,0 +1,274 @@
+.header {
+  position: fixed;
+  width: 100%;
+  padding: 20px 24px;
+  z-index: 999;
+}
+
+.navbarOuter {
+  height: 64px;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 32px;
+  backdrop-filter: blur(20px);
+}
+
+.navbar {
+  height: 64px;
+  padding: 0px 32px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.navbarInner {
+  display: inline-flex;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.logoImg {
+  height: 42px;
+  width: auto;
+}
+
+.menu {
+  align-items: center;
+  gap: 30px;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.menuButton {
+  display: none;
+  color: #023e8a;
+  font-size: 28px;
+}
+
+.menuItem {
+  padding: 4px 0px;
+  display: inline-block;
+  text-decoration: none;
+  color: #023e8a;
+  /* transition: all 0.2s ease-in-out; */
+}
+
+.menuItem:hover {
+  font-weight: 600;
+  border-bottom: 2px solid #023e8a;
+}
+
+.nav {
+  align-items: center;
+  gap: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.navItem {
+  font-size: 28px;
+  padding: 4px 0px;
+  color: #023e8a;
+  cursor: pointer;
+}
+
+.navItem:hover {
+  opacity: 0.8;
+}
+
+/* 下拉選單樣式 */
+.dropdown {
+  position: relative;
+  display: flex;
+  width: 200px;
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  right: 32px;
+  background-color: white;
+  border-radius: 8px;
+  list-style: none;
+  padding: 20px 8px;
+  z-index: 1;
+  gap: 12px;
+  align-items: center;
+}
+
+.dropdown button {
+  width: 180px;
+}
+
+.dropdown li {
+  width: 100%;
+}
+
+.memberInfo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.memberImg {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+}
+
+.memberName {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 0px 16px;
+}
+
+.dropdownItem {
+  font-size: 18px;
+  display: flex;
+  padding: 12px 54px;
+  width: 100%;
+  border-radius: 8px;
+  color: #023e8a;
+}
+
+.dropdownItem:hover {
+  font-weight: 400;
+  color: #fff;
+  background-color: #023e8a;
+}
+
+/* 平板 */
+@media screen and (max-width: 1024px) {
+  .header {
+    padding: 0px;
+  }
+
+  .navbarOuter {
+    height: 60px;
+    border-radius: 0px;
+  }
+
+  .navbar {
+    height: 60px;
+    padding: 0px 20px;
+  }
+
+  .navbarInner {
+    gap: 16px;
+  }
+
+  .menuButton {
+    display: flex;
+  }
+
+  .menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+    gap: 0px;
+    font-size: 18px;
+    padding: 16px;
+  }
+
+  .menu.show {
+    display: flex;
+  }
+
+  .menu li {
+    width: 100%;
+  }
+
+  .menuItem {
+    padding: 12px 0px;
+    width: 100%;
+    border-radius: 8px;
+    color: #023e8a;
+  }
+
+  .menuItem:hover {
+    font-weight: 400;
+    border-bottom: none;
+    color: #fff;
+    background-color: #023e8a;
+  }
+
+  .nav {
+    order: -1;
+    gap: 16px;
+  }
+
+  .navItem {
+    height: 42px;
+    padding: 0px;
+    display: flex;
+    text-decoration: none;
+    color: #023e8a;
+    align-items: center;
+  }
+
+  .dropdown {
+    width: 100%;
+    right: 0px;
+    border-radius: 0px;
+    padding: 16px;
+    gap: 16px;
+  }
+
+  .dropdown ul {
+    width: 100%;
+  }
+
+  .dropdown button {
+    width: 100%;
+  }
+
+  .dropdownItem {
+    justify-content: center;
+  }
+
+  .memberInfo {
+    flex-direction: column;
+  }
+}
+
+/* 手機 */
+@media screen and (max-width: 576px) {
+  .navbarOuter {
+    height: 60px;
+  }
+
+  .navbar {
+    height: 60px;
+    padding: 16px;
+  }
+
+  .logoImg {
+    height: auto;
+    width: 100px;
+  }
+
+  .menuButton {
+    font-size: 24px;
+  }
+
+  .menu {
+    /* top: 48px; */
+    width: 100vw; /* 修改這行 */
+    left: 0; /* 添加這行 */
+  }
+
+  .navItem {
+    font-size: 24px;
+  }
+
+}

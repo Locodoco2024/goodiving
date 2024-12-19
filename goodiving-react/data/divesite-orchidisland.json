@@ -1,0 +1,162 @@
+{
+  "orchidisland": {
+    "mapInfo": {
+      "name": "蘭嶼潛點地圖",
+      "imageUrl": "/orchidisland.png"
+    },
+    "diveSpots": [
+      {
+        "id": 1,
+        "x": 341,
+        "y": 198,
+        "name": "玉女岩外礁",
+        "type": "shore",
+        "hasLogs": "true"
+      },
+      {
+        "id": 2,
+        "x": 635,
+        "y": 170,
+        "name": "母雞岩外礁",
+        "type": "shore",
+        "hasLogs": "true"
+      },
+      {
+        "id": 3,
+        "x": 722,
+        "y": 150,
+        "name": "雙獅岩",
+        "type": "shore",
+        "hasLogs": "true"
+      },
+      {
+        "id": 4,
+        "x": 755,
+        "y": 115,
+        "name": "雙獅外礁左",
+        "type": "shore",
+        "hasLogs": "true"
+      },
+      {
+        "id": 5,
+        "x": 811,
+        "y": 114,
+        "name": "雙獅外礁右",
+        "type": "shore",
+        "hasLogs": "true"
+      },
+      {
+        "id": 6,
+        "x": 910,
+        "y": 195,
+        "name": "軍艦岩",
+        "type": "boat",
+        "hasLogs": ""
+      },
+      {
+        "id": 7,
+        "x": 815,
+        "y": 350,
+        "name": "東清三塊石",
+        "type": "boat",
+        "hasLogs": ""
+      },
+      {
+        "id": 8,
+        "x": 770,
+        "y": 404,
+        "name": "東清灣花園",
+        "type": "shore",
+        "hasLogs": ""
+      },
+      {
+        "id": 9,
+        "x": 825,
+        "y": 449,
+        "name": "關東石",
+        "type": "boat",
+        "hasLogs": ""
+      },
+      {
+        "id": 10,
+        "x": 890,
+        "y": 503,
+        "name": "野銀小峽谷",
+        "type": "boat",
+        "hasLogs": ""
+      },
+      {
+        "id": 11,
+        "x": 880,
+        "y": 546,
+        "name": "馬鞍礁",
+        "type": "boat",
+        "hasLogs": ""
+      },
+      {
+        "id": 12,
+        "x": 930,
+        "y": 625,
+        "name": "永興礁",
+        "type": "shore",
+        "hasLogs": ""
+      },
+      {
+        "id": 13,
+        "x": 1000,
+        "y": 814,
+        "name": "一線天",
+        "type": "boat",
+        "hasLogs": "true"
+      },
+      {
+        "id": 14,
+        "x": 730,
+        "y": 824,
+        "name": "四條溝",
+        "type": "boat",
+        "hasLogs": ""
+      },
+      {
+        "id": 15,
+        "x": 626,
+        "y": 740,
+        "name": "八代灣沈船",
+        "type": "boat",
+        "hasLogs": "true"
+      },
+      {
+        "id": 16,
+        "x": 485,
+        "y": 716,
+        "name": "機場外礁",
+        "type": "boat",
+        "hasLogs": ""
+      },
+      {
+        "id": 17,
+        "x": 270,
+        "y": 502,
+        "name": "開元港",
+        "type": "shore",
+        "hasLogs": ""
+      },
+      {
+        "id": 18,
+        "x": 250,
+        "y": 470,
+        "name": "藍洞",
+        "type": "shore",
+        "hasLogs": "true"
+      },
+      {
+        "id": 19,
+        "x": 285,
+        "y": 445,
+        "name": "油椰斷層",
+        "type": "shore",
+        "hasLogs": ""
+      }
+    ]
+  }
+}

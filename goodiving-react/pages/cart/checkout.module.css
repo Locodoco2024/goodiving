@@ -1,0 +1,158 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 0 auto;
+  width: 1140px;
+}
+
+.checkout-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.detail {
+  width: 755px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.total,
+.list,
+.info,
+.delivery,
+.payment {
+  background-color: white;
+  border-radius: 12px;
+  padding: 16px 24px;
+}
+
+.amount {
+  width: 365px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.total {
+  width: 100%;
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.list h4:last-of-type {
+  align-self: flex-end;
+}
+
+.item {
+  display: flex;
+  width: 700px;
+  justify-content: space-between;
+}
+
+.imageContainer {
+  width: 150px;
+  height: 150px;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.productInfo {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  justify-content: space-between;
+}
+
+.productName {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.sizeColor {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.size,
+.quantity {
+  flex: 1;
+}
+
+.color,
+.price {
+  margin-left: auto;
+  width: 50%;
+}
+
+.quantityPrice {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.subtotal {
+  font-weight: bold;
+  color: var(--danger);
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.inlineInputs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.delivery {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.payment {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input-container p {
+  margin-bottom: 10px;
+}
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.warning {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background: rgba(255, 39, 126, 0.1);
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.warningItem p {
+  padding-top: 4px;
+}
